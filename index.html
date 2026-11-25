@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diari de Manacor - Inici</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <header> <!-- barra superior de seleccio -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Diari de Manacor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Obrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inici</a></li>
+            <li class="nav-item"><a class="nav-link" href="news.html">Notícies</a></li>
+            <li class="nav-item"><a class="nav-link" href="new.html">Fitxa</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contacte</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <!-- Totes les noticies -->
+    <section class="p-5 mb-4 bg-light rounded-3 border">
+      <div class="container-fluid py-3">
+        <h1 class="display-6 fw-bold">Actualitat local de Manacor</h1>
+        <p class="col-md-8 fs-6 text-muted">Informació de proximitat, cultura i esports del municipi.</p>
+        <a href="news.html" class="btn btn-primary btn-sm">Veure notícies</a>
+      </div>
+    </section>
+
+    <!-- Noticies mes novedoses -->
+    <section>
+      <h2 class="h4 mb-3">Última hora</h2>
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="https://6b04092126d24f67837a5cb9.imgix.net/Captura%20de%20pantalla%20de%202026-11-25%2008-54-58.png" class="card-img-top" alt="Notícia 1">
+            <div class="card-body">
+              <h3 class="h6 card-title">Lux Ventus</h3>
+              <p class="card-text small text-muted">La nova marca de roba en tendencia.</p>
+              <a href="new.html" class="btn btn-outline-primary btn-sm">Llegir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="https://6b04092126d24f67837a5cb9.imgix.net/monta%C3%B1a/photo-1508739773434-c26b3d09e071.avif" class="card-img-top" alt="Notícia 2">
+            <div class="card-body">
+              <h3 class="h6 card-title">Les millors vistes de la setmana</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="https://6b04092126d24f67837a5cb9.imgix.net/codigo/photo-1461749280684-dccba630e2f6.avif" class="card-img-top" alt="Notícia 3">
+            <div class="card-body">
+              <h3 class="h6 card-title">Consells per nous a programacio</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Peu de pagina -->
+  <footer class="py-4 text-center text-muted small">
+    <div class="container">
+      <p class="mb-0"> 2026 Diari de Manacor. Tots els drets reservats.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
