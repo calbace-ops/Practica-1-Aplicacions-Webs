@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #0d6efd; /* Blau clasic corporatiu */
+  --text-main: #333333;
+  --bg-color: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Navbar sencill */
+.navbar {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Targetes discretes */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer net */
+footer {
+  border-top: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  margin-top: 3rem;
+}
