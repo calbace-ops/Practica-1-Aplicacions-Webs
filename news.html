@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diari de Manacor - Notícies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <header> <!-- barra superior de seleccio -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Diari de Manacor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Obrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inici</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="news.html">Notícies</a></li>
+            <li class="nav-item"><a class="nav-link" href="new.html">Fitxa</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contacte</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <h1 class="h3 mb-4">Llistat de Notícies</h1>
+    
+    <div class="row g-3">
+      <!-- Targeta important -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://6b04092126d24f67837a5cb9.imgix.net/Captura%20de%20pantalla%20de%202026-11-25%2008-54-58.png" class="card-img-top" alt="Imatge">
+          <div class="card-body">
+            <h2 class="h6 card-title">Lux Ventus</h2>
+            <p class="card-text small text-muted">La nova marca de roba en tendencia</p>
+            <a href="new.html" class="btn btn-outline-primary btn-sm">Llegir més</a>
+          </div>
+        </div>
+      </div>
+      <!-- Targeta extra 1 -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://6b04092126d24f67837a5cb9.imgix.net/monta%C3%B1a/photo-1508739773434-c26b3d09e071.avif" class="card-img-top" alt="Imatge">
+          <div class="card-body">
+            <h2 class="h6 card-title">Les millors vistes de la setmana</h2>
+            <p class="card-text small text-muted">Les millors vistes valorades a google maps.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Targeta extra 2 -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://6b04092126d24f67837a5cb9.imgix.net/codigo/photo-1461749280684-dccba630e2f6.avif" class="card-img-top" alt="Imatge">
+          <div class="card-body">
+            <h2 class="h6 card-title">Coses que se'ns obliden</h2>
+            <p class="card-text small text-muted">Coses que tot programador sap, però no va malament recordar-les.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Targeta extra 3 -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://6b04092126d24f67837a5cb9.imgix.net/photo-1519389950473-47ba0277781c.avif" class="card-img-top" alt="Imatge">
+          <div class="card-body">
+            <h2 class="h6 card-title">La clau del Brainstorming</h2>
+            <p class="card-text small text-muted">Estudis demostren que el brainstorming es clau per els treballs grupals</p>
+          </div>
+        </div>
+      </div>
+      <!-- Targeta extra 4 -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Imatge">
+          <div class="card-body">
+            <h2 class="h6 card-title">Consells per nous a programacio</h2>
+            <p class="card-text small text-muted">Petites ayudes per els que volen començar a programa.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Targeta extra 5 -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://6b04092126d24f67837a5cb9.imgix.net/photo-1504384308090-c894fdcc538d.avif" class="card-img-top" alt="Imatge">
+          <div class="card-body">
+            <h2 class="h6 card-title">Problemes a l'oficina municipal</h2>
+            <p class="card-text small text-muted">Hi ha problemes amb els pagaments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paginació -->
+    <nav class="mt-4" aria-label="Paginació">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">Següent</a></li>
+      </ul>
+    </nav>
+  </main>
+
+  <!-- Peu de pagina -->
+  <footer class="py-4 text-center text-muted small">
+    <div class="container">
+      <p class="mb-0">2026 Diari de Manacor.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
